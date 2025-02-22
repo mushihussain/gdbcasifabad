@@ -1,4 +1,4 @@
-# Rahimoon Institude
+# GDBC Asifabad
 
 > **A Unique, Full-Stack MERN Project**  
 > This is a production-level project that includes a fully responsive frontend, a robust backend, and an intuitive admin panel. It is a comprehensive college website featuring all necessary pages and functionalities to serve as an academic portal.
@@ -51,25 +51,3 @@ This project is a complete MERN (MongoDB, Express, React, Node.js) stack applica
 
 ---
 
-## Deployment
-
-This project is deployed on **Vercel**. If you wish to deploy your own instance:
-
-1. **Create a Vercel Account:** Sign up at [vercel.com](https://vercel.com).
-2. **Connect Your Git Repository:** Link your repository to Vercel.
-3. **Set Up Environment Variables:** Configure all necessary environment variables in the Vercel dashboard.
-4. **Deploy:** Follow Vercel’s instructions for a seamless deployment.
-
----
-
-## Credits & Acknowledgements
-
-- This project was built with dedication and attention to detail.
-- If you clone or use this repository, please **star the project** and **give credit** to the original author.
-- Special thanks to all the open-source contributors and the communities around [React](https://reactjs.org), [Express](https://expressjs.com), [Prisma](https://www.prisma.io), and other libraries used in this project.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
