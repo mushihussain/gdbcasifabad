@@ -18,7 +18,7 @@ const Principal = () => {
         </div>
         <div className="md:w-1/3 flex justify-center order-1 md:order-2">
           <img 
-            src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1737891181/principle_fllcbf.jpg' 
+            src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1741382363/princpipal_bsjcha.jpg' 
             alt="Principal" 
             className="rounded-full border-4 border-red-500"
           />

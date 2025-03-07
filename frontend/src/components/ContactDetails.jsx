@@ -7,28 +7,29 @@ const ContactDetails = () => {
         <div className="details w-full md:w-1/2 px-4 mb-8 md:mb-0">
           <span className="text-md md:text-lg text-purple-600">Get in touch</span>
           <h2 className="text-2xl md:text-3xl font-semibold my-3 md:my-4">
-            Rahimoon Institute - USA
+            GDBC ASIFABAD KARACHI
           </h2>
           <div className="flex items-center mb-3 md:mb-4">
             <FaMapMarkerAlt className="text-purple-600 mr-2 text-lg md:text-xl" />
-            <p className="text-sm md:text-base">Rahimoon Institute, 123 College Drive, Rahimoon City, USA</p>
+            <p className="text-sm md:text-base">W227+95R, Manghopir Rd, Pak Colony Hasrat Mohani Colony Bara Board, Karachi, Pakistan</p>
           </div>
           <div className="flex items-center mb-3 md:mb-4">
             <FaEnvelope className="text-purple-600 mr-2 text-lg md:text-xl" />
-            <p className="text-sm md:text-base">info@rahimooninstitute.edu</p>
+            <p className="text-sm md:text-base">mushihussain@gmail.com</p>
           </div>
           <div className="flex items-center mb-3 md:mb-4">
             <FaPhoneAlt className="text-purple-600 mr-2 text-lg md:text-xl" />
-            <p className="text-sm md:text-base">+1 555 123 4567</p>
+            <p className="text-sm md:text-base">+923452067342</p>
           </div>
           <div className="flex items-center mb-3 md:mb-4">
             <FaClock className="text-purple-600 mr-2 text-lg md:text-xl" />
-            <p className="text-sm md:text-base">Monday - Friday: 8:00 AM - 5:00 PM</p>
+            <p className="text-sm md:text-base">Monday - Saturday: 9:00 AM - 1:00 PM</p>
           </div>
         </div>
         <div className="w-full md:w-1/2 px-4">
+        {/* <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14471.99057347296!2d67.0682739871582!3d24.9321502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4e2375278b%3A0x8f54a569b216cea0!2sAlKaram%20Studio%20-%20LuckyOne!5e0!3m2!1sen!2s!4v1703818297485!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d231708.87724855886!2d67.0536804!3d24.8484346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fcf95c21aab%3A0x4d4764832e28e81!2sGovernment%20Degree%20Boys%20College%20Asifabad%20Asifabad!5e0!3m2!1sen!2s!4v1741383362483!5m2!1sen!2s"
             width="100%"
             height="300"
             className="md:h-450"
