@@ -53,9 +53,9 @@ const Header = () => {
     <div className="w-full bg-gray-900 text-white relative">
       <div className="md:px-10 py-4 px-7 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <img src={logo} alt="Rahimoon Institute" className="w-16 h-auto" />
+          <img src={logo} alt="GDBC ASIFABAD" className="w-16 h-auto" />
           <span className="font-semibold text-xl leading-none font-serif">
-            Rahimoon Institute
+            GDBC ASIFABAD
           </span>
         </div>
 
@@ -100,7 +100,7 @@ const Header = () => {
         <div className="hidden lg:flex items-center">
           <img
             src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884458/pakistanlogo_avluy4.avif'
-            alt="Rahimoon Institute"
+            alt="GDBC ASIFABAD"
             className="w-16 h-auto rounded border-2 border-black shadow-lg"
           />
         </div>

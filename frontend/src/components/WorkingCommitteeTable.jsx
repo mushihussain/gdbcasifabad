@@ -1,24 +1,16 @@
 const WorkingCommitteeTable = () => {
   const members = [
-    { id: 1, name: 'Mr. Muhammad Ali', designation: 'President' },
-    { id: 2, name: 'Mr. Ahmed Khan', designation: 'Vice-President' },
-    { id: 3, name: 'Mr. Ali Hassan', designation: 'Vice-President' },
-    { id: 4, name: 'Mr. Imran Shah', designation: 'Vice-President' },
-    { id: 5, name: 'Mr. Bilal Ahmed', designation: 'Vice-President' },
-    { id: 6, name: 'Mr. Usman Khan', designation: 'Hon. General Secretary' },
-    { id: 7, name: 'Mr. Muhammad Iqbal', designation: 'Hon. Joint Secretary' },
-    { id: 8, name: 'Mr. Asad Ali', designation: 'Member' },
-    { id: 9, name: 'Mr. Fahad Khan', designation: 'Member' },
-    { id: 10, name: 'Ms. Ayesha Khan', designation: 'Member' },
-    { id: 11, name: 'Dr. Muhammad Asif', designation: 'Member' },
-    { id: 12, name: 'Mr. Ali Raza', designation: 'Member' },
-    { id: 13, name: 'Mr. Muhammad Amir', designation: 'Member' },
+    { id: 1, name: 'Mr. Mushtaq Hussain', designation: 'Principal' },
+    { id: 2, name: 'Mr. Anwar Ahmed', designation: 'Vice-Principal' },
+    { id: 3, name: 'Mr. Shakeel Ahmed', designation: 'Librarian' },
+    { id: 4, name: 'Mr. Hasan Ali', designation: 'DPE' },
+    { id: 5, name: 'Mr. Zakir', designation: 'Practical Incharge' }
   ];
 
   return (
     <section className="bg-white py-16 border-black border-b font-serif">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">Working Committee of PMEWS</h2>
+        <h2 className="text-3xl font-bold text-center mb-4">Working Committee of GDBC ASIFABAD</h2>
         <div className="flex justify-center mb-4">
           <div className="border-t-2 border-gray-400 w-16"></div>
           <div className="border-t-2 border-red-500 w-8 mx-2"></div>
