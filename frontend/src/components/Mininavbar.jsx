@@ -7,13 +7,13 @@ const MiniNavbar = () => {
             <span className="mr-1">❓</span> Have any questions?
           </Link>
           <a href="mailto:info@gdbcasifabad.edu.pk" className="flex items-center text-sm hover:text-purple-600">
-            <span className="mr-1">📧</span> info@rahimooninstitute
+            <span className="mr-1">📧</span> info@gdbcasifabad.edu.pk
           </a>
-          <a href="tel:+1234567890" className="flex items-center text-sm hover:text-purple-600">
-            <span className="mr-1">📞</span> +123 456 7890
+          <a href="tel:+923452067342" className="flex items-center text-sm hover:text-purple-600">
+            <span className="mr-1">📞</span> +923452067342  
           </a>
-          <a href="tel:+0987654321" className="flex items-center text-sm hover:text-purple-600">
-            <span className="mr-1">📞</span> +098 765 4321
+          <a href="tel:+923009298186" className="flex items-center text-sm hover:text-purple-600">
+            <span className="mr-1">📞</span> +923009298186
           </a>
           <Link to="/https://forms.gle/cxdoBf49455ex6Ld8" className="flex items-center text-sm hover:text-purple-600">
             <span className="mr-1">📝</span> Registration Form

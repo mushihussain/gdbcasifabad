@@ -3,14 +3,14 @@ import 'react-multi-carousel/lib/styles.css';
 
 const milestones = [
   {
-    title: 'Milestone 1',
-    description: 'Establishment of the institution in 1995, marking the beginning of a new era in higher education. This milestone marked the start of a journey that would shape the future of education in the region. It was a significant step towards providing quality education to students from diverse backgrounds.',
+    title: 'Achievement of A1 Grade',
+    description: 'The institution secured an A1 grade with an impressive 85% score, accompanied by a plethora of A and B grades. This outstanding performance marked a significant milestone in the institution\'s journey, solidifying its position as a beacon of academic excellence. The institution\'s dedication to academic rigor and student success was evident in this achievement.',
     image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885479/milestone_gom2mt.jpg',
     link: '/',
   },
   {
-    title: 'Milestone 2',
-    description: 'Introduction of undergraduate programs in 2000, expanding academic offerings to cater to a broader student base. This expansion enabled the institution to reach a wider audience, offering a range of programs that catered to diverse interests and career aspirations. It was a significant step towards becoming a comprehensive educational institution.',
+    title: 'Positions in Sindh Game 2023-24',
+    description: 'The institution achieved top positions in the Sindh Game 2023-24, showcasing its commitment to fostering a culture of sports and physical fitness. This achievement marked a significant milestone in the institution\'s journey, demonstrating the students\' ability to excel in both academics and extracurricular activities.',
     image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone3_mjagux.jpg',
     link: '/',
   },
