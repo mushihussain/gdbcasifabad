@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const { scrollY } = useViewportScroll();
@@ -49,14 +50,16 @@ const Hero = () => {
           >
             Unlock your academic potential at our esteemed institution, where innovation and excellence converge.
           </motion.p>
-          <motion.button
-            className="bg-transparent border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black transition text-sm sm:text-base md:text-lg lg:text-xl"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.0, duration: 0.5 }}
-          >
-            Read More
-          </motion.button>
+          <Link to="/about">
+            <motion.button
+              className="bg-transparent border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black transition text-sm sm:text-base md:text-lg lg:text-xl"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.0, duration: 0.5 }}
+            >
+              Read More
+            </motion.button>
+          </Link>
         </div>
       </div>
     </div>
