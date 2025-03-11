@@ -20,10 +20,8 @@ const About = () => {
     <div>
       <PageHeader {...headerData} />
       <Quaid />
-      <Principal />
       <TimelineSection />
-      <WorkingCommitteeTable />
-      <GetStarted />
+      <Principal />
       <FullWidthImage />
       <Footer />
     </div>

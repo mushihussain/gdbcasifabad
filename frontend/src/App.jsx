@@ -21,7 +21,7 @@ import SamplePaper from './Pages/SamplePaper.jsx';
 import Uniform from './Pages/Uniform.jsx';
 import StudentTimeTable from './Pages/StudentTimeTable.jsx';
 import MiniNavbar from './components/Mininavbar.jsx';
-import Loader from './components/Loader.jsx';
+import Loader from './components/MainLoader.jsx';
 import NotFound from './components/404'; // Import the 404 page component
 
 function App() {
