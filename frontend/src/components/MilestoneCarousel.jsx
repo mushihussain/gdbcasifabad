@@ -3,35 +3,47 @@ import 'react-multi-carousel/lib/styles.css';
 
 const milestones = [
   {
-    title: 'Achievement of A1 Grade',
-    description: 'The institution secured an A1 grade with an impressive 85% score, accompanied by a plethora of A and B grades. This outstanding performance marked a significant milestone in the institution\'s journey, solidifying its position as a beacon of academic excellence. The institution\'s dedication to academic rigor and student success was evident in this achievement.',
-    image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885479/milestone_gom2mt.jpg',
-    link: '/',
+    title: "Achievement of A1 Grade",
+    description: "The institution secured an A1 grade with an 85% score, accompanied by a high percentage of A and B grades. This achievement reflects the institution’s dedication to academic excellence, rigorous standards, and student success, solidifying its reputation as a leading educational institute.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885479/milestone_gom2mt.jpg",
+    link: "/",
   },
   {
-    title: 'Positions in Sindh Game 2023-24',
-    description: 'The institution achieved top positions in the Sindh Game 2023-24, showcasing its commitment to fostering a culture of sports and physical fitness. This achievement marked a significant milestone in the institution\'s journey, demonstrating the students\' ability to excel in both academics and extracurricular activities.',
-    image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone3_mjagux.jpg',
-    link: '/',
+    title: "Excellence in Sindh Games 2023-24",
+    description: "The institution secured top positions in the Sindh Games 2023-24, demonstrating its commitment to sports and physical fitness. This milestone highlights the students' determination, teamwork, and competitive spirit, reinforcing a balance between academics and extracurricular activities.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone3_mjagux.jpg",
+    link: "/",
   },
   {
-    title: 'Milestone 3',
-    description: 'Launch of postgraduate programs in 2005, solidifying the institutions position as a hub for advanced learning. This launch marked a significant milestone in the institutions journey, as it began to offer advanced degrees that catered to students seeking specialized knowledge. It further established the institution as a center of excellence in higher education.',
-    image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone2_u2dd9r.webp',
-    link: '/',
+    title: "Highly Qualified Faculty & Programs",
+    description: "The institution expanded its academic offerings by launching postgraduate programs in 2005. With expert faculty and specialized courses, it upholds the highest standards of teaching, research, and innovation, empowering students with advanced knowledge and career opportunities.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone2_u2dd9r.webp",
+    link: "/",
   },
   {
-    title: 'Milestone 4',
-    description: 'Accreditation by the National Assessment and Accreditation Council (NAAC) in 2010, recognizing the institutions commitment to quality education. This accreditation was a testament to the institutions commitment to maintaining high standards of education, research, and community engagement. It validated the institutions efforts to provide a world-class education to its students.',
-    image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone1_srlk5d.jpg',
-    link: './',
+    title: "National Accreditation & Excellence",
+    description: "In 2010, the institution received NAAC accreditation, recognizing its dedication to academic quality, research, and community service. This milestone reflects its continuous efforts to maintain world-class education standards and foster an environment of academic growth and excellence.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885480/milestone1_srlk5d.jpg",
+    link: "/",
   },
   {
-    title: 'Milestone 5',
-    description: 'Inauguration of the state-of-the-art research center in 2015, fostering innovation and collaboration among faculty and students. This research center marked a significant milestone in the institutions journey, as it provided a platform for interdisciplinary research and innovation. It enabled faculty and students to engage in cutting-edge research, driving innovation and entrepreneurship.',
-    image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885616/milestone4_etgype.jpg',
-    link: '/',
-  }
+    title: "State-of-the-Art Research Center",
+    description: "The inauguration of a research center in 2015 marked a new era of innovation and collaboration. This facility enables students and faculty to engage in groundbreaking research, fostering technological advancements, entrepreneurship, and interdisciplinary learning in various fields.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885616/milestone4_etgype.jpg",
+    link: "/",
+  },
+  {
+    title: "Vibrant Extracurricular & Culture",
+    description: "Beyond academics, the institution offers cultural events, debates, leadership programs, and artistic activities. These initiatives foster teamwork, confidence, and communication skills, helping students develop holistically while excelling in both personal and professional endeavors.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885616/milestone4_etgype.jpg",
+    link: "/",
+  },
+  {
+    title: "Modern Classrooms & Digital Learning",
+    description: "The institution has upgraded classrooms with smart boards, digital learning tools, and interactive technology. These advancements create a dynamic and engaging environment, enhancing students’ educational experience and ensuring alignment with evolving global learning trends.",
+    image: "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737885616/milestone4_etgype.jpg",
+    link: "/",
+  },
 ];
 
 const responsive = {

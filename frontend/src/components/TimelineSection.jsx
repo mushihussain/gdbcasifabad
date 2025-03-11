@@ -16,9 +16,7 @@ const Timeline = () => {
           <img src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884456/decorationone_ksjdfm.png' className="w-24 h-auto" alt="Decoration" />
         </div>
         <p className="max-w-lg md:max-w-2xl mx-auto mb-8 md:mb-12">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo vitae
-          aut soluta obcaecati sapiente. Sit pariatur distinctio vero error.
-          Cum.
+          GDBC Asifabad Karachi Boys College has a rich history of providing quality education to its students. Since its inception, the college has been committed to fostering academic excellence, personal growth, and social responsibility.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
           {milestones.map((milestone, index) => (

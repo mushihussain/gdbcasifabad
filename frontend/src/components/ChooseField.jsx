@@ -6,7 +6,7 @@ const ChooseField = () => {
   const fields = [
     {
       title: 'Commerce',
-      description: 'The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.',
+      description: 'The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.',
       image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884466/commerce_g6efty.jpg'
     },
     {

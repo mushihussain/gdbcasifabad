@@ -15,7 +15,7 @@ const MiniNavbar = () => {
           <a href="tel:+923009298186" className="flex items-center text-sm hover:text-purple-600">
             <span className="mr-1">📞</span> +923009298186
           </a>
-          <Link to="/https://forms.gle/cxdoBf49455ex6Ld8" className="flex items-center text-sm hover:text-purple-600">
+          <Link to="https://forms.gle/cxdoBf49455ex6Ld8" className="flex items-center text-sm hover:text-purple-600">
             <span className="mr-1">📝</span> Registration Form
           </Link>
         </div>

@@ -1,7 +1,50 @@
 import { motion } from 'framer-motion';
 import { FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import BackToTopButton from './BackToTopButton';
-import Logo from '../assets/logo.png'; 
+import Logo from '../assets/logo.png';
+
+const usefulLinks = [
+  { label: "About Us", href: "/about" },
+  { label: "Faculty & Staff", href: "/faculty" },
+  { label: "News & Updates", href: "/news" },
+  { label: "Contact Us", href: "/contactus" }
+];
+
+const studentLinks = [
+  { label: "Sample Paper", href: "/samplepaper" },
+  { label: "Registration Form", href: "https://forms.gle/cxdoBf49455ex6Ld8" },
+  { label: "Time Table", href: "/studenttimetable" },
+  { label: "Uniform", href: "/uniform" },
+  { label: "Galleries", href: "/galleries" }
+];
+
+const socialLinks = [
+  {
+    label: "Facebook",
+    href: "#",
+    icon: "FaFacebook", // icon name reference (use in Footer accordingly)
+    color: "text-blue-600 hover:text-blue-400"
+  },
+  {
+    label: "WhatsApp",
+    href: "https://wa.me/1234567890",
+    icon: "FaWhatsapp",
+    color: "text-green-500 hover:text-green-400"
+  },
+  {
+    label: "Email",
+    href: "mailto:info@example.com",
+    icon: "FaEnvelope",
+    color: "text-gray-400 hover:text-gray-200"
+  }
+];
+
+
+const iconMapping = {
+  FaFacebook: <FaFacebook className="text-2xl md:text-3xl" />,
+  FaWhatsapp: <FaWhatsapp className="text-2xl md:text-3xl" />,
+  FaEnvelope: <FaEnvelope className="text-2xl md:text-3xl" />
+};
 
 const Footer = () => {
   return (
@@ -17,10 +60,12 @@ const Footer = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <img src={Logo} alt="Logo" className="h-12 md:h-16 mx-auto mb-4" />
-            <p className="text-gray-400 mb-4 font-serif text-sm md:text-base">We are committed to providing the best service for our students with a focus on education and community support.</p>
+            <p className="text-gray-400 mb-4 font-serif text-sm md:text-base">
+              We are committed to providing the best service for our students with a focus on education and community support.
+            </p>
           </motion.div>
 
-          {/* Links Columns */}
+          {/* Useful Links */}
           <motion.div 
             className="w-full md:w-1/4 mb-6 md:mb-0"
             initial={{ opacity: 0, y: 20 }}
@@ -29,17 +74,20 @@ const Footer = () => {
           >
             <h4 className="text-xl md:text-2xl font-semibold mb-4 font-serif">Useful Links</h4>
             <ul className="space-y-2 text-center">
-              {['About Us', 'Faculty & Staff', 'FAQs', 'News & Updates', 'Contact Us'].map((link, index) => (
+              {usefulLinks.map((link, index) => (
                 <motion.li 
                   key={index}
                   whileHover={{ scale: 1.05 }}
                 >
-                  <a href="#" className="text-gray-300 hover:text-purple-400 text-sm md:text-base">{link}</a>
+                  <a href={link.href} className="text-gray-300 hover:text-purple-400 text-sm md:text-base">
+                    {link.label}
+                  </a>
                 </motion.li>
               ))}
             </ul>
           </motion.div>
 
+          {/* Students Links */}
           <motion.div 
             className="w-full md:w-1/4 mb-6 md:mb-0"
             initial={{ opacity: 0, y: 20 }}
@@ -48,12 +96,14 @@ const Footer = () => {
           >
             <h4 className="text-xl md:text-2xl font-semibold mb-4 font-serif">Students</h4>
             <ul className="space-y-2 text-center">
-              {['Academics', 'Sample Paper', 'Registration Form', 'Uniform', 'Galleries'].map((link, index) => (
+              {studentLinks.map((link, index) => (
                 <motion.li 
                   key={index}
                   whileHover={{ scale: 1.05 }}
                 >
-                  <a href="#" className="text-gray-300 hover:text-purple-400 text-sm md:text-base">{link}</a>
+                  <a href={link.href} className="text-gray-300 hover:text-purple-400 text-sm md:text-base">
+                    {link.label}
+                  </a>
                 </motion.li>
               ))}
             </ul>
@@ -68,22 +118,7 @@ const Footer = () => {
           >
             <h4 className="text-xl md:text-2xl font-semibold mb-4 font-serif">Follow Us</h4>
             <div className="flex flex-col items-center space-y-4">
-              {[{
-                href: "#",
-                label: "Facebook",
-                icon: <FaFacebook className="text-2xl md:text-3xl" />,
-                color: "text-blue-600 hover:text-blue-400"
-              }, {
-                href: "https://wa.me/1234567890",
-                label: "WhatsApp",
-                icon: <FaWhatsapp className="text-2xl md:text-3xl" />,
-                color: "text-green-500 hover:text-green-400"
-              }, {
-                href: "mailto:info@example.com",
-                label: "Email",
-                icon: <FaEnvelope className="text-2xl md:text-3xl" />,
-                color: "text-gray-400 hover:text-gray-200"
-              }].map((social, index) => (
+              {socialLinks.map((social, index) => (
                 <motion.a 
                   key={index}
                   href={social.href}
@@ -91,7 +126,7 @@ const Footer = () => {
                   aria-label={social.label}
                   whileHover={{ scale: 1.05 }}
                 >
-                  {social.icon}
+                  {iconMapping[social.icon]}
                   <span className="text-sm md:text-base">{social.label}</span>
                 </motion.a>
               ))}
@@ -107,7 +142,7 @@ const Footer = () => {
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <p className="text-gray-400 text-xs md:text-sm font-serif">
-          © Rahimoon Institute. Design & Developed By 
+          © GDBC Asifabad Design & Developed By 
           <a href="https://github.com/zahidrahimoon" className="text-purple-400 decoration-none"> Zahid Rahimoon</a>
         </p>
       </motion.div>
