@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-[600px] overflow-hidden">
       <img
-        src="https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884600/college_h6vny9.jpg"
+        src="https://res.cloudinary.com/dzr3drmyk/image/upload/v1741806451/gdbc_enhanced_pa3rv4.png"
         alt="Hero Background"
         className="absolute w-full h-full object-cover"
       />

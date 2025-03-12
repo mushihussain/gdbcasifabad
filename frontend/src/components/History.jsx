@@ -2,42 +2,57 @@ import { motion } from 'framer-motion';
 
 const History = () => {
   return (
-    <div className="md:mx-8 border-b border-t border-black">
+    <div className="md:mx-8 border-b border-t py-12 text-black">
+      {/* Title */}
       <motion.h1
-        className="text-center text-4xl mb-8 mt-8 font-serif"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        className="text-center text-3xl font-serif mb-8 font-playfair tracking-wide"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
       >
         History & Background
       </motion.h1>
-      <div className="flex flex-col items-center">
-        <img src=
-        'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884456/decorationone_ksjdfm.png' className="mb-8" alt="Decoration" />
-        <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between w-[80%]">
-          <div className="sm:w-full md:w-1/2 p-4">
-            <motion.p
-              initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="text-justify font-sans text-gray-400"
-            >
-              Our college has a rich history dating back to 1950, when it was founded by a group of visionary educators. Since then, we have been committed to providing high-quality education to students from diverse backgrounds. Over the years, we have evolved to meet the changing needs of the education sector, incorporating innovative teaching methods and state-of-the-art facilities to ensure our students receive a well-rounded education.<br />
-              Our faculty comprises experienced professionals and academics who are dedicated to nurturing the next generation of leaders. We take pride in our strong industry connections, which enable us to offer our students opportunities for internships, research collaborations, and career placements.<br />
-              At our college, we believe in fostering a culture of inclusivity, diversity, and social responsibility. We encourage our students to engage in community service projects, volunteer work, and extracurricular activities that promote personal growth and civic engagement.
-            </motion.p>
-          </div>
-          <div className="sm:w-full md:w-1/3 p-2 flex justify-center">
-            <motion.img
-              src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884600/college_h6vny9.jpg'
-              alt="College Hero"
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="max-w-[90%] h-auto rounded-sm shadow-lg transform transition-transform duration-500 hover:scale-105"
-            />
-          </div>
-        </div>
+
+      {/* Decorative Line */}
+      <div className="flex justify-center">
+        <img
+          src="https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884456/decorationone_ksjdfm.png"
+          className="w-32 mb-8 opacity-80"
+          alt="Decoration"
+        />
+      </div>
+
+      {/* Content Section */}
+      <div className="flex flex-col md:flex-row items-center md:justify-center w-[90%] mx-auto gap-8">
+        {/* Text Section */}
+        <motion.div
+          className="w-full md:w-1/2 p-6"
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.6 }}
+        >
+          <p className="text-lg  leading-relaxed">
+            Our college has a rich history dating back to <span className="text-purple-400 font-semibold">1950</span>, founded by visionary educators. We have remained committed to providing high-quality education while evolving with modern teaching methods and state-of-the-art facilities.  
+            <br /><br />
+            With a faculty of experienced professionals, we emphasize academic excellence and industry collaboration. Our students benefit from internship opportunities, research collaborations, and career placements that set them on the path to success.
+            <br /><br />
+            We champion <span className="text-purple-400 font-semibold">inclusivity, diversity, and social responsibility</span>, encouraging students to participate in community service and extracurricular activities that foster personal and professional growth.
+          </p>
+        </motion.div>
+
+        {/* Image Section */}
+        <motion.div
+          className="w-full md:w-1/2 flex justify-center"
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.6 }}
+        >
+          <img
+            src="https://res.cloudinary.com/dzr3drmyk/image/upload/v1741806451/gdbc_enhanced_pa3rv4.png"
+            alt="College Hero"
+            className="w-full h-full max-h-[450px] object-cover rounded-md shadow-2xl"
+          />
+        </motion.div>
       </div>
     </div>
   );

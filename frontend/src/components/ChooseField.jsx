@@ -5,25 +5,25 @@ import { motion } from 'framer-motion';
 const ChooseField = () => {
   const fields = [
     {
-      title: 'Commerce',
-      description: 'The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.The Commerce group includes subjects such as Accounting, Banking, Principles of Commerce, Commercial Geography, Business Studies, Economics, and Statistics.',
-      image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884466/commerce_g6efty.jpg'
+      "title": "Commerce",
+      "description": "Govt. Degree Boys College Asifabad Karachi offers Commerce with expert faculty, covering Accounting, Banking, Business Studies, Economics, and Statistics.",
+      "image": "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884466/commerce_g6efty.jpg"
     },
     {
-      title: 'Pre-Engineering',
-      description: 'The Pre-Engineering group covers various engineering fields including Civil, Electrical, Mechanical, Aeronautical, Architectural, Telecom, Chemical, Space & others.The Pre-Engineering group covers various engineering fields including Civil, Electrical, Mechanical, Aeronautical, Architectural, Telecom, Chemical, Space & others.The Pre-Engineering group covers various engineering fields including Civil, Electrical, Mechanical, Aeronautical, Architectural, Telecom, Chemical, Space & others.The Pre-Engineering group covers various engineering fields including Civil, Electrical, Mechanical, Aeronautical, Architectural, Telecom, Chemical, Space & others.The Pre-Engineering group covers various engineering fields including Civil, Electrical, Mechanical, Aeronautical, Architectural, Telecom, Chemical, Space & others.',
-      image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884459/preengineering_jtoqhx.avif'
+      "title": "Pre-Engineering",
+      "description": "Govt. Degree Boys College Asifabad Karachi provides Pre-Engineering with professional guidance in Civil, Electrical, Mechanical, Telecom, and more fields.",
+      "image": "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884459/preengineering_jtoqhx.avif"
     },
     {
-      title: 'Pre-Medical',
-      description: 'The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.The Pre-Medical group serves as a gateway to professions like physiotherapy, surgery, pharmacy, microbiology, and more.',
-      image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884459/premedical_egvsw2.avif'
+      "title": "Pre-Medical",
+      "description": "Govt. Degree Boys College Asifabad Karachi prepares students for careers in Medicine, Pharmacy, Microbiology, and Surgery with expert mentorship.",
+      "image": "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884459/premedical_egvsw2.avif"
     },
     {
-      title: 'Computer Science',
-      description: 'The Computer Science group focuses on Physics, Computer Science, and Mathematics, with practicals in programming languages.The Computer Science group focuses on Physics, Computer Science, and Mathematics, with practicals in programming languages.The Computer Science group focuses on Physics, Computer Science, and Mathematics, with practicals in programming languages.The Computer Science group focuses on Physics, Computer Science, and Mathematics, with practicals in programming languages.The Computer Science group focuses on Physics, Computer Science, and Mathematics, with practicals in programming languages.The Computer Science group focuses on Physics, Computer Science, and Mathematics, with practicals in programming languages.',
-      image: 'https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884465/computer_kumdzo.avif'
-    },
+      "title": "Computer Science",
+      "description": "Govt. Degree Boys College Asifabad Karachi offers Computer Science with hands-on learning in programming, Physics, and Mathematics by skilled educators.",
+      "image": "https://res.cloudinary.com/dzr3drmyk/image/upload/v1737884465/computer_kumdzo.avif"
+    }
   ];
 
   return (
