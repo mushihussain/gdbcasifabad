@@ -12,7 +12,7 @@ const FullWidthImage = () => {
         Empowering the future through excellence in education.
       </p>
       <a
-        href="/apply"
+        href="https://forms.gle/cxdoBf49455ex6Ld8"
         className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full transition duration-300"
       >
         Register Now

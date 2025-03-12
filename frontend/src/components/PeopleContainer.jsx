@@ -10,15 +10,15 @@ const PeopleContainer = () => {
           </p>
         </div>
         <div className="people flex items-center space-x-4">
-          <img src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1741383816/user_eqzvbl.avif' alt="Anaa" className="w-20 h-20 rounded-full" />
-          <p className="text-lg">
-            <span className="font-semibold">Muhammad Zahid</span><br /> WORKER GDBC ASIFABAD <br /> Phone:+92 3131239619 <br /> E-mail: muhammadzahid@gmail.com
-          </p>
-        </div>
-        <div className="people flex items-center space-x-4">
           <img src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1741383816/user_eqzvbl.avif' alt="Ellie" className="w-20 h-20 rounded-full" />
           <p className="text-lg">
             <span className="font-semibold">Mr.Zakir</span><br />SENIOR CLERK<br /> Phone:+92 3009298186<br /> E-mail: zakirahmed@gmail.com
+          </p>
+        </div>
+        <div className="people flex items-center space-x-4">
+          <img src='https://res.cloudinary.com/dzr3drmyk/image/upload/v1741383816/user_eqzvbl.avif' alt="Anaa" className="w-20 h-20 rounded-full" />
+          <p className="text-lg">
+            <span className="font-semibold">Muhammad Zahid</span><br /> WORKER GDBC ASIFABAD <br /> Phone:+92 3131239619 <br /> E-mail: muhammadzahid@gmail.com
           </p>
         </div>
       </div>

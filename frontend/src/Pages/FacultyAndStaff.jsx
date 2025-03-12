@@ -17,7 +17,6 @@ const FacultyAndStaff = () => {
    <PageHeader {...headerData} />
    <div className="min-h-scree">
     <FacultyList />
-    <GetStarted />
     <FullWidthImage />
     <Footer />
   </div>
